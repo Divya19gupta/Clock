@@ -84,7 +84,7 @@ transition-timing-function: cubic-bezier(0, 1.5, 0.58, 1);
        const mins = now.getMinutes();
        const minsDegrees = ((mins/60)*360)+90;        
        minHand.style.transform = `rotate(${minsDegrees}deg)`;
-
+    //hour yet to be edited!
        var hour = now.getHours();
        hour=hour%12;
        hour=((hour*Math.PI/6)+(mins*Math.PI/(6*60))+(seconds*Math.PI/(360*60))*360)+90;        
